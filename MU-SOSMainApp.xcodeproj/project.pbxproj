@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050437A3290AEB0500E5B786 /* OpeningPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050437A2290AEB0500E5B786 /* OpeningPageViewController.swift */; };
+		050437A5290AEB3800E5B786 /* TermsAndConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050437A4290AEB3800E5B786 /* TermsAndConditionsViewController.swift */; };
+		050437A7290AEB7E00E5B786 /* TermsAndConditionsWontAcceptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050437A6290AEB7E00E5B786 /* TermsAndConditionsWontAcceptViewController.swift */; };
+		050437A9290AEBA700E5B786 /* SingOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050437A8290AEBA700E5B786 /* SingOnViewController.swift */; };
+		050437AB290AEBE500E5B786 /* HazardTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050437AA290AEBE500E5B786 /* HazardTabViewController.swift */; };
+		05ECCF442906F8A80089D010 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05ECCF432906F8A80089D010 /* Preview Assets.xcassets */; };
+		05ECCF4E2906F8A90089D010 /* MU_SOSMainAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ECCF4D2906F8A90089D010 /* MU_SOSMainAppTests.swift */; };
+		05ECCF582906F8A90089D010 /* MU_SOSMainAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ECCF572906F8A90089D010 /* MU_SOSMainAppUITests.swift */; };
+		05ECCF5A2906F8A90089D010 /* MU_SOSMainAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ECCF592906F8A90089D010 /* MU_SOSMainAppUITestsLaunchTests.swift */; };
+		05ECCF672906F8CD0089D010 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05ECCF662906F8CD0089D010 /* Storyboard.storyboard */; };
+		05ECCF69290710110089D010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05ECCF68290710110089D010 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05ECCF4A2906F8A90089D010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05ECCF302906F8A70089D010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05ECCF372906F8A70089D010;
+			remoteInfo = "MU-SOSMainApp";
+		};
+		05ECCF542906F8A90089D010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05ECCF302906F8A70089D010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05ECCF372906F8A70089D010;
+			remoteInfo = "MU-SOSMainApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050437A2290AEB0500E5B786 /* OpeningPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningPageViewController.swift; sourceTree = "<group>"; };
+		050437A4290AEB3800E5B786 /* TermsAndConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsViewController.swift; sourceTree = "<group>"; };
+		050437A6290AEB7E00E5B786 /* TermsAndConditionsWontAcceptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsWontAcceptViewController.swift; sourceTree = "<group>"; };
+		050437A8290AEBA700E5B786 /* SingOnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingOnViewController.swift; sourceTree = "<group>"; };
+		050437AA290AEBE500E5B786 /* HazardTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HazardTabViewController.swift; sourceTree = "<group>"; };
+		05ECCF382906F8A70089D010 /* MU-SOSMainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MU-SOSMainApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05ECCF412906F8A80089D010 /* MU_SOSMainApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MU_SOSMainApp.entitlements; sourceTree = "<group>"; };
+		05ECCF432906F8A80089D010 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05ECCF492906F8A90089D010 /* MU-SOSMainAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MU-SOSMainAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05ECCF4D2906F8A90089D010 /* MU_SOSMainAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MU_SOSMainAppTests.swift; sourceTree = "<group>"; };
+		05ECCF532906F8A90089D010 /* MU-SOSMainAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MU-SOSMainAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05ECCF572906F8A90089D010 /* MU_SOSMainAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MU_SOSMainAppUITests.swift; sourceTree = "<group>"; };
+		05ECCF592906F8A90089D010 /* MU_SOSMainAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MU_SOSMainAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05ECCF662906F8CD0089D010 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		05ECCF68290710110089D010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05ECCF352906F8A70089D010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ECCF462906F8A90089D010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ECCF502906F8A90089D010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05ECCF2F2906F8A70089D010 = {
+			isa = PBXGroup;
+			children = (
+				05ECCF3A2906F8A70089D010 /* MU-SOSMainApp */,
+				05ECCF4C2906F8A90089D010 /* MU-SOSMainAppTests */,
+				05ECCF562906F8A90089D010 /* MU-SOSMainAppUITests */,
+				05ECCF392906F8A70089D010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05ECCF392906F8A70089D010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05ECCF382906F8A70089D010 /* MU-SOSMainApp.app */,
+				05ECCF492906F8A90089D010 /* MU-SOSMainAppTests.xctest */,
+				05ECCF532906F8A90089D010 /* MU-SOSMainAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05ECCF3A2906F8A70089D010 /* MU-SOSMainApp */ = {
+			isa = PBXGroup;
+			children = (
+				05ECCF662906F8CD0089D010 /* Storyboard.storyboard */,
+				050437AA290AEBE500E5B786 /* HazardTabViewController.swift */,
+				050437A8290AEBA700E5B786 /* SingOnViewController.swift */,
+				050437A6290AEB7E00E5B786 /* TermsAndConditionsWontAcceptViewController.swift */,
+				050437A4290AEB3800E5B786 /* TermsAndConditionsViewController.swift */,
+				050437A2290AEB0500E5B786 /* OpeningPageViewController.swift */,
+				05ECCF68290710110089D010 /* Assets.xcassets */,
+				05ECCF412906F8A80089D010 /* MU_SOSMainApp.entitlements */,
+				05ECCF422906F8A80089D010 /* Preview Content */,
+			);
+			path = "MU-SOSMainApp";
+			sourceTree = "<group>";
+		};
+		05ECCF422906F8A80089D010 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05ECCF432906F8A80089D010 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05ECCF4C2906F8A90089D010 /* MU-SOSMainAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				05ECCF4D2906F8A90089D010 /* MU_SOSMainAppTests.swift */,
+			);
+			path = "MU-SOSMainAppTests";
+			sourceTree = "<group>";
+		};
+		05ECCF562906F8A90089D010 /* MU-SOSMainAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05ECCF572906F8A90089D010 /* MU_SOSMainAppUITests.swift */,
+				05ECCF592906F8A90089D010 /* MU_SOSMainAppUITestsLaunchTests.swift */,
+			);
+			path = "MU-SOSMainAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05ECCF372906F8A70089D010 /* MU-SOSMainApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05ECCF5D2906F8A90089D010 /* Build configuration list for PBXNativeTarget "MU-SOSMainApp" */;
+			buildPhases = (
+				05ECCF342906F8A70089D010 /* Sources */,
+				05ECCF352906F8A70089D010 /* Frameworks */,
+				05ECCF362906F8A70089D010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MU-SOSMainApp";
+			productName = "MU-SOSMainApp";
+			productReference = 05ECCF382906F8A70089D010 /* MU-SOSMainApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05ECCF482906F8A90089D010 /* MU-SOSMainAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05ECCF602906F8A90089D010 /* Build configuration list for PBXNativeTarget "MU-SOSMainAppTests" */;
+			buildPhases = (
+				05ECCF452906F8A90089D010 /* Sources */,
+				05ECCF462906F8A90089D010 /* Frameworks */,
+				05ECCF472906F8A90089D010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05ECCF4B2906F8A90089D010 /* PBXTargetDependency */,
+			);
+			name = "MU-SOSMainAppTests";
+			productName = "MU-SOSMainAppTests";
+			productReference = 05ECCF492906F8A90089D010 /* MU-SOSMainAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05ECCF522906F8A90089D010 /* MU-SOSMainAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05ECCF632906F8A90089D010 /* Build configuration list for PBXNativeTarget "MU-SOSMainAppUITests" */;
+			buildPhases = (
+				05ECCF4F2906F8A90089D010 /* Sources */,
+				05ECCF502906F8A90089D010 /* Frameworks */,
+				05ECCF512906F8A90089D010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05ECCF552906F8A90089D010 /* PBXTargetDependency */,
+			);
+			name = "MU-SOSMainAppUITests";
+			productName = "MU-SOSMainAppUITests";
+			productReference = 05ECCF532906F8A90089D010 /* MU-SOSMainAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05ECCF302906F8A70089D010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					05ECCF372906F8A70089D010 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					05ECCF482906F8A90089D010 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 05ECCF372906F8A70089D010;
+					};
+					05ECCF522906F8A90089D010 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 05ECCF372906F8A70089D010;
+					};
+				};
+			};
+			buildConfigurationList = 05ECCF332906F8A70089D010 /* Build configuration list for PBXProject "MU-SOSMainApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05ECCF2F2906F8A70089D010;
+			productRefGroup = 05ECCF392906F8A70089D010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05ECCF372906F8A70089D010 /* MU-SOSMainApp */,
+				05ECCF482906F8A90089D010 /* MU-SOSMainAppTests */,
+				05ECCF522906F8A90089D010 /* MU-SOSMainAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05ECCF362906F8A70089D010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ECCF442906F8A80089D010 /* Preview Assets.xcassets in Resources */,
+				05ECCF69290710110089D010 /* Assets.xcassets in Resources */,
+				05ECCF672906F8CD0089D010 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ECCF472906F8A90089D010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ECCF512906F8A90089D010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05ECCF342906F8A70089D010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050437A9290AEBA700E5B786 /* SingOnViewController.swift in Sources */,
+				050437A3290AEB0500E5B786 /* OpeningPageViewController.swift in Sources */,
+				050437AB290AEBE500E5B786 /* HazardTabViewController.swift in Sources */,
+				050437A7290AEB7E00E5B786 /* TermsAndConditionsWontAcceptViewController.swift in Sources */,
+				050437A5290AEB3800E5B786 /* TermsAndConditionsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ECCF452906F8A90089D010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ECCF4E2906F8A90089D010 /* MU_SOSMainAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05ECCF4F2906F8A90089D010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ECCF582906F8A90089D010 /* MU_SOSMainAppUITests.swift in Sources */,
+				05ECCF5A2906F8A90089D010 /* MU_SOSMainAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05ECCF4B2906F8A90089D010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05ECCF372906F8A70089D010 /* MU-SOSMainApp */;
+			targetProxy = 05ECCF4A2906F8A90089D010 /* PBXContainerItemProxy */;
+		};
+		05ECCF552906F8A90089D010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05ECCF372906F8A70089D010 /* MU-SOSMainApp */;
+			targetProxy = 05ECCF542906F8A90089D010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05ECCF5B2906F8A90089D010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05ECCF5C2906F8A90089D010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		05ECCF5E2906F8A90089D010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MU-SOSMainApp/MU_SOSMainApp.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MU-SOSMainApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MU-SOSMainApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05ECCF5F2906F8A90089D010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MU-SOSMainApp/MU_SOSMainApp.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MU-SOSMainApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MU-SOSMainApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05ECCF612906F8A90089D010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MU-SOSMainAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MU-SOSMainApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MU-SOSMainApp";
+			};
+			name = Debug;
+		};
+		05ECCF622906F8A90089D010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MU-SOSMainAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MU-SOSMainApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MU-SOSMainApp";
+			};
+			name = Release;
+		};
+		05ECCF642906F8A90089D010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MU-SOSMainAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MU-SOSMainApp";
+			};
+			name = Debug;
+		};
+		05ECCF652906F8A90089D010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MU-SOSMainAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MU-SOSMainApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05ECCF332906F8A70089D010 /* Build configuration list for PBXProject "MU-SOSMainApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05ECCF5B2906F8A90089D010 /* Debug */,
+				05ECCF5C2906F8A90089D010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05ECCF5D2906F8A90089D010 /* Build configuration list for PBXNativeTarget "MU-SOSMainApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05ECCF5E2906F8A90089D010 /* Debug */,
+				05ECCF5F2906F8A90089D010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05ECCF602906F8A90089D010 /* Build configuration list for PBXNativeTarget "MU-SOSMainAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05ECCF612906F8A90089D010 /* Debug */,
+				05ECCF622906F8A90089D010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05ECCF632906F8A90089D010 /* Build configuration list for PBXNativeTarget "MU-SOSMainAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05ECCF642906F8A90089D010 /* Debug */,
+				05ECCF652906F8A90089D010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05ECCF302906F8A70089D010 /* Project object */;
+}
