@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		050437A3290AEB0500E5B786 /* OpeningPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050437A2290AEB0500E5B786 /* OpeningPageViewController.swift */; };
 		050437A5290AEB3800E5B786 /* TermsAndConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050437A4290AEB3800E5B786 /* TermsAndConditionsViewController.swift */; };
+		055ED82B293E8DA7002ED26A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055ED82D293E8DA7002ED26A /* Main.storyboard */; };
 		0566F83B292419200001023E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0566F83A292419200001023E /* GoogleService-Info.plist */; };
 		0566F83E29241A3C0001023E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0566F83D29241A3C0001023E /* FirebaseAnalytics */; };
 		0566F84029241A3C0001023E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 0566F83F29241A3C0001023E /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -40,12 +40,12 @@
 		0566F87429241A960001023E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0566F87329241A960001023E /* AppDelegate.swift */; };
 		0566F87629241A9E0001023E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0566F87529241A9E0001023E /* SceneDelegate.swift */; };
 		0572D5BD291ACE580084EDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0572D5BC291ACE580084EDCD /* Assets.xcassets */; };
-		0598E3C6291D7A4C00FDB15E /* EmergencyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598E3C5291D7A4C00FDB15E /* EmergencyTabViewController.swift */; };
+		05B6B40D293674A40010A657 /* EmergencyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6B40C293674A40010A657 /* EmergencyTabViewController.swift */; };
+		05B6B40F293683480010A657 /* OpeningPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6B40E293683480010A657 /* OpeningPageViewController.swift */; };
 		05ECCF442906F8A80089D010 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05ECCF432906F8A80089D010 /* Preview Assets.xcassets */; };
 		05ECCF4E2906F8A90089D010 /* MU_SOSMainAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ECCF4D2906F8A90089D010 /* MU_SOSMainAppTests.swift */; };
 		05ECCF582906F8A90089D010 /* MU_SOSMainAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ECCF572906F8A90089D010 /* MU_SOSMainAppUITests.swift */; };
 		05ECCF5A2906F8A90089D010 /* MU_SOSMainAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ECCF592906F8A90089D010 /* MU_SOSMainAppUITestsLaunchTests.swift */; };
-		05ECCF672906F8CD0089D010 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05ECCF662906F8CD0089D010 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,13 +66,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		050437A2290AEB0500E5B786 /* OpeningPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningPageViewController.swift; sourceTree = "<group>"; };
 		050437A4290AEB3800E5B786 /* TermsAndConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsViewController.swift; sourceTree = "<group>"; };
+		055ED82C293E8DA7002ED26A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0566F83A292419200001023E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0566F87329241A960001023E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0566F87529241A9E0001023E /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0572D5BC291ACE580084EDCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0598E3C5291D7A4C00FDB15E /* EmergencyTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTabViewController.swift; sourceTree = "<group>"; };
+		05B6B40C293674A40010A657 /* EmergencyTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTabViewController.swift; sourceTree = "<group>"; };
+		05B6B40E293683480010A657 /* OpeningPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningPageViewController.swift; sourceTree = "<group>"; };
 		05ECCF382906F8A70089D010 /* MU-SOSMainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MU-SOSMainApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05ECCF412906F8A80089D010 /* MU_SOSMainApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MU_SOSMainApp.entitlements; sourceTree = "<group>"; };
 		05ECCF432906F8A80089D010 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -81,7 +82,6 @@
 		05ECCF532906F8A90089D010 /* MU-SOSMainAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MU-SOSMainAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05ECCF572906F8A90089D010 /* MU_SOSMainAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MU_SOSMainAppUITests.swift; sourceTree = "<group>"; };
 		05ECCF592906F8A90089D010 /* MU_SOSMainAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MU_SOSMainAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		05ECCF662906F8CD0089D010 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,10 +161,10 @@
 			children = (
 				0566F87329241A960001023E /* AppDelegate.swift */,
 				0566F87529241A9E0001023E /* SceneDelegate.swift */,
-				05ECCF662906F8CD0089D010 /* Storyboard.storyboard */,
-				050437A2290AEB0500E5B786 /* OpeningPageViewController.swift */,
+				055ED82D293E8DA7002ED26A /* Main.storyboard */,
+				05B6B40E293683480010A657 /* OpeningPageViewController.swift */,
 				050437A4290AEB3800E5B786 /* TermsAndConditionsViewController.swift */,
-				0598E3C5291D7A4C00FDB15E /* EmergencyTabViewController.swift */,
+				05B6B40C293674A40010A657 /* EmergencyTabViewController.swift */,
 				0572D5BC291ACE580084EDCD /* Assets.xcassets */,
 				05ECCF412906F8A80089D010 /* MU_SOSMainApp.entitlements */,
 				0566F83A292419200001023E /* GoogleService-Info.plist */,
@@ -291,7 +291,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					05ECCF372906F8A70089D010 = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -337,7 +337,7 @@
 				05ECCF442906F8A80089D010 /* Preview Assets.xcassets in Resources */,
 				0566F83B292419200001023E /* GoogleService-Info.plist in Resources */,
 				0572D5BD291ACE580084EDCD /* Assets.xcassets in Resources */,
-				05ECCF672906F8CD0089D010 /* Storyboard.storyboard in Resources */,
+				055ED82B293E8DA7002ED26A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,8 +364,8 @@
 			files = (
 				0566F87629241A9E0001023E /* SceneDelegate.swift in Sources */,
 				0566F87429241A960001023E /* AppDelegate.swift in Sources */,
-				0598E3C6291D7A4C00FDB15E /* EmergencyTabViewController.swift in Sources */,
-				050437A3290AEB0500E5B786 /* OpeningPageViewController.swift in Sources */,
+				05B6B40D293674A40010A657 /* EmergencyTabViewController.swift in Sources */,
+				05B6B40F293683480010A657 /* OpeningPageViewController.swift in Sources */,
 				050437A5290AEB3800E5B786 /* TermsAndConditionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +402,17 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		055ED82D293E8DA7002ED26A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				055ED82C293E8DA7002ED26A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		05ECCF5B2906F8A90089D010 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -437,27 +448,50 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QQU83VBF67;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "MU-SOSMainApp/Info.plist";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				"INFOPLIST_KEY_UILaunchStoryboardName[sdk=*]" = LaunchScreen;
+				"INFOPLIST_KEY_UIMainStoryboardFile[sdk=*]" = Main;
+				"MACH_O_TYPE[arch=*]" = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				"MACOSX_DEPLOYMENT_TARGET[arch=*]" = "";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+				"TVOS_DEPLOYMENT_TARGET[arch=*]" = "";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+				"WATCHOS_DEPLOYMENT_TARGET[arch=*]" = "";
 			};
 			name = Debug;
 		};
@@ -495,20 +529,41 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QQU83VBF67;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "MU-SOSMainApp/Info.plist";
+				"INFOPLIST_KEY_UILaunchStoryboardName[sdk=*]" = LaunchScreen;
+				"INFOPLIST_KEY_UIMainStoryboardFile[sdk=*]" = Main;
+				"MACH_O_TYPE[arch=*]" = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				"MACOSX_DEPLOYMENT_TARGET[arch=*]" = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+				"WATCHOS_DEPLOYMENT_TARGET[arch=*]" = "";
 			};
 			name = Release;
 		};
@@ -518,22 +573,31 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "MU-SOSMainApp/MU_SOSMainApp.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MU-SOSMainApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QQU83VBF67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "MU-SOSMainApp/GoogleService-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -542,9 +606,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -554,22 +621,31 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "MU-SOSMainApp/MU_SOSMainApp.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MU-SOSMainApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QQU83VBF67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "MU-SOSMainApp/GoogleService-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -578,9 +654,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -591,6 +670,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -613,6 +693,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -634,6 +715,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -655,6 +737,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
